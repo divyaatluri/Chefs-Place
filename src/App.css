@@ -1,6 +1,19 @@
-.name_app {
-  color: blue;
+.header-container {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
 }
-.name1 {
-  color: green;
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+}
+
+.list > li {
+  padding: 0 15px;
 }

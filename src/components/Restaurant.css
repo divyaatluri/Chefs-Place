@@ -1,0 +1,15 @@
+.res-card {
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.res-logo {
+  width: 100%;
+}
+
+.res-card:hover {
+  /* border: 1px solid black; */
+  cursor: pointer;
+}
