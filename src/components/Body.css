@@ -3,6 +3,8 @@
   flex-wrap: wrap;
 }
 
-.search {
+.topRated-btn {
   padding: 5px;
+  margin: 10px;
+  cursor: pointer;
 }
