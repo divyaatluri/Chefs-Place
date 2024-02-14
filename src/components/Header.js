@@ -1,4 +1,5 @@
 import React from "react";
+import "./Header.css";
 import { IMG_URL } from "../utils/constants";
 const Header = () => {
   return (
