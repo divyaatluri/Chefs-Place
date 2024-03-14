@@ -8,3 +8,11 @@
   margin: 10px;
   cursor: pointer;
 }
+
+.filter-container {
+  display: flex;
+}
+
+.search-container {
+  margin: 15px;
+}
