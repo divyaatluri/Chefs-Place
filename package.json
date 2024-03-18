@@ -23,6 +23,7 @@
     "mini-css-extract-plugin": "^2.7.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
     "style-loader": "^3.3.4",
     "webpack": "^5.90.0",
     "webpack-dev-server": "^4.15.1",
