@@ -9,7 +9,6 @@ module.exports = merge(common, {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
     assetModuleFilename: "images/[name].[ext]",
-    publicPath: "/",
   },
   module: {
     rules: [
@@ -18,9 +17,6 @@ module.exports = merge(common, {
         use: ["style-loader", "css-loader"],
       },
     ],
-  },
-  devServer: {
-    historyApiFallback: true,
   },
   plugins: [
     new HtmlWebPackPlugin({

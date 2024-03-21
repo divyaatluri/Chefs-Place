@@ -1,11 +1,10 @@
-import ReactDom from "react-dom/client";
 import React from "react";
+import ReactDom from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import App from "./App";
 import AboutUs from "./components/AboutUs";
-import ContactUs from "./components/ContactUs";
-import Body from "./components/Body";
 import Header from "./components/Header";
+import Body from "./components/Body";
+import ContactUs from "./components/ContactUs";
 import Error from "./components/Error";
 
 const AppLayout = () => {
